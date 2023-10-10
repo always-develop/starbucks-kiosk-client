@@ -18,9 +18,10 @@
       }
     ],
     "strictNullChecks": true,
-    "baseUrl": "./*",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./public/*"]
+      "@/*": ["/*"],
+      "~/*": ["/app/*"]
     }
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
